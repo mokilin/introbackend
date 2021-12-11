@@ -1,20 +1,20 @@
 Clase 4/12
 
-Un API es una sección dentro del backend que permitirá que el
-tanto Frontend como Backend estén en comunicación.
+Un API es una sección dentro del backend que permitirá que 
+tanto el Frontend como Backend estén en comunicación.
 Tal como la carrocería de un auto se ensambla con el motor.
 
-Existe dos grandes standares/protocolos para construir API:
+Existen dos grandes standares/protocolos para construir API:
 -soap
 -rest
 
-En SOAP, el lenguaje que "mueve" la info entre Backend y Frontend es XML 
-(parecido al HTML) - permite que se comparta info entre dif partes del software.
+En el protocolo SOAP, el lenguaje que "mueve" la info entre Backend y Frontend es XML 
+(parecido al HTML) - permite que se comparta info entre diferentes partes del software.
 SOAP es ya tecnología Legacy - ha quedado un poco en el olvido
 
 El protocolo llamado REST es el usado actualmente y es muy superior.
 Para hacer un API en  REST, usamos el lenguaje JSON /Java Script Object Notation.
-Un Jason es un Diccionario de Python :D 
+Un Json es un Diccionario de Python :D 
 con llaves y valores
 Y de hecho lo que para python es un diccionario, para JavaScript es un Objecto
 
