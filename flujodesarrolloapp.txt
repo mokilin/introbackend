@@ -1,0 +1,20 @@
+* ver imágen en carpeta local
+
+Cuál es el flujo de desarrollo de una app?
+
+Deploy significa enviar tu desarrollo a un servidor
+el flujo es ir desde tu LOCAL (trabajando con tu browser, editor y git)
+hacia github utilizando push (y pull para traer cambios que pudiera
+haber hecho algún colaborador)
+
+Nube y Github son servidores. Github solo contiene tu código
+Desde github, se ejecuta CI/CD (continuos integration y diployment/delivery - 
+no son lo mismo, ver acá https://platzi.com/blog/continuous-integration-continuous-delivery-y-continuous-deployments/
+CI/CD es testear el proyecto, si funciona
+entonces si, se completará el proceso de Deploy
+
+El servidor guardará tu app o web en un dominio(nombre.algo)
+
+El entorno local en cambio tu proyecto vivirá en el Local Host, conformado
+por una dirección IP(cuatro espacios divididos por tres puntos, ver imagen) y un puerto (casi siempre 8000)
+
