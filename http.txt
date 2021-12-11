@@ -1,7 +1,8 @@
 HTTP - EL LENGUAJE QUE HABLA INTERNET
 
 HTTP (hyper text transfer protocol) es un protocolo mediante el cual se transfiere el hipertexto a través de internet
-Es un conjunto de reglase que sirve para que cliente y servidor se comuniquen en un
+
+Es un conjunto de reglas que sirve para que cliente y servidor se comuniquen en un
 determinado idioma
 
 Cliente es cualquier dispositivo que se quiere comunicar con un servidor para acceder
@@ -11,15 +12,15 @@ Servidor es una computadora que aloja aquellas aplicaciones o recursos a los que
 desea acceder. Le devuelve un Response al Request del cliente.
 
 El REQUEST (petición del cliente) contiene:
--método: forma en que se realiza la petición (ej: get, post, put, delete, patch etch)
--cabeceras, x ej (host: servidor al que le pido /// language: en qué idioma?)
+- método---> forma en que se realiza la petición (ej: get, post, put, delete, patch etc)
+- headers(cabeceras)---> x ej (host: servidor al que le pido /// language: en qué idioma?)
 
 El RESPONSE (respuesta del servidor) contiene:
 - headers (cabeceras) ---> versión de http, status code *, aplicativo (server), última fecha de modificación,
 tags (caché), accept-ranges(en qué estamos entregando la info= ej bytes)
 content lengh(cuantos bytes=) y content type(formato del body de estas response)
 
-- body (contenido de la app) o si el body es una api, será un Json
+- body---> contenido de la app, o, si el body es una api, será un Json
 
 Status code del Response, valores:
 
