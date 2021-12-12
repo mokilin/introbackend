@@ -1,0 +1,51 @@
+*ver imagen en local
+
+Cloud: conjunto de servidores que contienen apps que hacen funcionar internet
+Servidores: computadoras que contienen apps y las distribuyen en internet
+
+Cómo debo configurar y trabaajar con servidores para que las apps funcionen eficientemente?
+
+Hosting: acto de alojar un proyecto/app en un espacio en servidor 
+
+diferentes tipos de hosting:
+
+IAAS - INFRAESTRUCTURE AS A SERVICE
+-Es casi siempre la opción más económica
+-En esta opción tendrás que ocuparte de actualizar las apps que van a vivir de estos servidores(ej bases de datos, librerías)
+-Tenes control sobre el hardware: CPU, memoria ram y disco duro (ssd - estado solido)
+-Le podes decir al dueño del servidor especificaciones de estas tres cosas que 
+necesitas para tu app
+
+Tipos de IIAS
+shared hosting: elijes los recursos pero lo compartes con otros usuarios, es más barato
+VPS(virtual private service)servidor privado, lo puedes modificar tu mismo, son más caras (digital ocean es la mas económica)
+Ej de IAAS populares
+
+AWS
+MICROSOFT AZURE
+DIGITAL OCEAN (económica)
+
+----------------------------
+
+PAAS - PLATFORM AS A SERVICE
+- El servidor se encarga de las actualizaciones que necesita tu propia app alojada en él (ej: bases de datos, firewall etc)
+- Eliges qué cosas necesita tu app para funcionar (ej base de datos, firewall, etc)
+- Configuras todo con interfaz gráfica
+
+Ej de PAAS:
+Google add engine (un solo comando y está hecho)
+Firebase:Eliges y rellenas las bases de datos
+Heroku: Es sencilla, con un par de comandos se configura todo y se aloja la app
+
+----------------------------------
+
+SAAAS - SOFTWARE AS A SERVICE
+- Utilizas softwares ya creados
+- un proovedor te presta apps para que tu negocio funciones
+- sin código básicamente
+- buena opción para principiantes
+
+Ej de SAAS:
+google docs
+slack (mensajería)
+wordpress
